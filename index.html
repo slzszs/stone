@@ -8,7 +8,19 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" href="stylesheets/font-awesome.css">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="javascripts/stickUp-master/stickUp.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,11 +29,10 @@
   </head>
 
   <body>
-    <header>
+    <header id='home'>
       <div class="inner">
         <h1>Stone</h1>
         <h2>我是个挫人，我是个程序猿，我喂自己一袋盐。</h2>
-        <a href="https://github.com/slzszs/stone" class="button"><small>View project on</small>GitHub</a>
       </div>
     </header>
 
@@ -31,20 +42,92 @@
           <h3>
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>欢迎大家来到我的 <code>github</code> 主页，首先非常感谢github提供这个平台给我这种码农，还有感谢 <code>bootstrap</code> 和 <code>jquery</code> 的开发者们，你们再一次改变了web开发的世界~</p>
 
+<p>如果你也想拥有这样的一个主页，请使用 <code>git</code> 然后创建如下分支：</p>
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>个人简历.</h3>
+<div >
+<div class="row bs-callout bs-callout-warning">
+  <div class="col-xs-6 col-md-3">
+    <span class="thumbnail">
+      <img src="images/large_y3jP_48e600000e83118f.jpg" alt="...">
+    </span>
+  </div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+  <div class="col-xs-6 col-md-3 ">
+    <div class=" thumbnail active panel panel-primary" >
+    <div class="panel-heading">
+    <b class="panel-title">姓名:</b>
+    </div>
+    <div class="panel-body"> 施磊 </div>
+    
+    </div>
 
+    <div class=" thumbnail active panel panel-primary" >
+    <div class="panel-heading">
+    <b class="panel-title">电话:</b>
+    </div>
+    <div class="panel-body"> 13816376064 </div>
+    
+    </div>
+
+
+  </div>
+
+<div class="col-xs-6 col-md-3 ">
+    <div class=" thumbnail active panel panel-primary" >
+    <div class="panel-heading">
+    <b class="panel-title">性别:</b>
+    </div>
+    <div class="panel-body"> 男 </div>
+    
+    </div>
+
+    <div class=" thumbnail active panel panel-primary" >
+    <div class="panel-heading">
+    <b class="panel-title">年龄:</b>
+    </div>
+    <div class="panel-body"> 25 </div>
+    
+    </div>
+
+    
+  </div>
+
+  <div class="col-xs-6 col-md-3 ">
+    <div class=" thumbnail active panel panel-primary" >
+    <div class="panel-heading">
+    <b class="panel-title">职业:</b>
+    </div>
+    <div class="panel-body"> PHP工程师 </div>
+    
+    </div>
+
+    <div class=" thumbnail active panel panel-primary" >
+    <div class="panel-heading">
+    <b class="panel-title">邮箱:</b>
+    </div>
+    <div class="panel-body"> slzszs@126.com </div>
+    
+    </div>
+
+    
+  </div>
+
+
+  </div>
+
+  
+
+
+</div>
 <h3>
 <a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
@@ -62,22 +145,35 @@ $ git checkout gh-pages
         </section>
 
         <aside id="sidebar">
-          <a href="https://github.com/slzszs/stone/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/slzszs/stone/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/slzszs/stone"></a> is maintained by <a href="https://github.com/slzszs">slzszs</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+         <div class="span2">
+          <div class="stickUp">
+            <ul class="list-group">
+              <li class="list-group-item">
+            <a  class="btn" href="#home" /><i class="icon-arrow-up"></i> 看不下去了~</a>
+          </li>
+          <li class="list-group-item">
+             <a class="btn" href="mailto:slzszs@126.com?subject=我想邀请你来面试" /><i class="icon-envelope"></i> 邮件联系我~</a>
+           </li>
+             <li class="list-group-item">
+             <a  class="btn" href="mailto:slzszs@126.com?subject=我想邀请你来面试" /><i class="icon-download-alt"></i> 想看看简历~</a>
+           </li>
+           </ul>
+          </div>
+        </div>
         </aside>
       </div>
     </div>
 
-  
+   <script type="text/javascript"> //initiating jQuery 
+   jQuery(function($) { 
+   $(document).ready( function() { //enabling stickUp on the '.navbar-wrapper' class 
+    $('.stickUp').stickUp({
+    }
+
+      ); 
+
+  }); 
+ }); 
+   </script>
   </body>
 </html>
